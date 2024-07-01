@@ -5,20 +5,20 @@
 
 span img{
     border: 2px solid burlywood;
-    height: 16rem;
-    width: 16rem;
-    margin-top: 7rem;
-    margin-left: 1rem;
+    height: 15rem;
+    width: 15rem;
+    margin-top: 4rem;
+    margin-left: 10px;
     border-radius: 50%;}
 
 
 /* LEFT SIDE */
 #left{
-    height:78rem;
+    height:35rem;
     display: flex;
     flex-direction: column;
-    width: 18rem;
-    margin-left: 10rem;
+    width: 14rem;
+
 }
 
 #left > div{
@@ -26,11 +26,11 @@ background-color: burlywood;
 text-align: center;
 }
 #left  li{
-    font-size: 2.5rem;
+    font-size: 24px;
 }
 #left > div > button{
-    width: 3rem;
-    height: 3rem;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
 
@@ -40,9 +40,10 @@ text-align: center;
 #right{
     display: flex;
     flex-direction: column;
-    width: 80rem;
-    /* margin-left: 1rem; */
+    width: 45rem;
+    margin-left: 3rem;
 }
+    /* margin-left: 1rem; */
 #right > div{
     background-color: burlywood;
     text-align: center;
@@ -53,8 +54,8 @@ text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 2rem;
-    font-size: 2rem;
+    padding: 25px;
+    font-size: 1rem;
 }
 
 /* corousel desgin */
@@ -72,10 +73,10 @@ text-align: center;
 .carousel-item{
     position: sticky;
     border: 2px solid black;
-     height: 25rem;
-    min-width: 95%;
+    height: 20rem;
+    min-width: 70%;
     transition: opacity 1s ease;
-    margin-top: 4rem;
+    margin-top: 1.5rem;
     margin-left: 3rem;
 
 }
