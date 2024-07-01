@@ -5,18 +5,16 @@
 
 span img{
     border: 2px solid burlywood;
-    height: 35rem;
-    width: 35rem;
-    margin-top: 14rem;
+    height: 16rem;
+    width: 16rem;
+    margin-top: 7rem;
     margin-left: 1rem;
     border-radius: 50%;}
 
 
 /* LEFT SIDE */
 #left{
-    height:400px;
-    width: 400px;
-    
+    height:78rem;
     display: flex;
     flex-direction: column;
     width: 18rem;
@@ -42,7 +40,7 @@ text-align: center;
 #right{
     display: flex;
     flex-direction: column;
-    width: 1000px;
+    width: 80rem;
     /* margin-left: 1rem; */
 }
 #right > div{
@@ -55,8 +53,8 @@ text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 1rem;
-    font-size: 1.5rem;
+    padding: 2rem;
+    font-size: 2rem;
 }
 
 /* corousel desgin */
@@ -74,7 +72,7 @@ text-align: center;
 .carousel-item{
     position: sticky;
     border: 2px solid black;
-     height: 45rem;
+     height: 25rem;
     min-width: 95%;
     transition: opacity 1s ease;
     margin-top: 4rem;
