@@ -1,0 +1,83 @@
+
+#container{
+   display: flex;
+}
+
+span img{
+    border: 2px solid burlywood;
+    height: 35rem;
+    width: 35rem;
+    margin-top: 14rem;
+    margin-left: 1rem;
+    border-radius: 50%;}
+
+
+/* LEFT SIDE */
+#left{
+    height:400px;
+    width: 400px;
+    
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    margin-left: 10rem;
+}
+
+#left > div{
+background-color: burlywood;
+text-align: center;
+}
+#left  li{
+    font-size: 2.5rem;
+}
+#left > div > button{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+
+
+/* RIGHT SIDE */
+#right{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    /* margin-left: 1rem; */
+}
+#right > div{
+    background-color: burlywood;
+    text-align: center;
+    
+    } 
+
+ #navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+/* corousel desgin */
+#box{
+    position: relative;
+    /* border: 2px solid black; */
+   /* width: 80rem; height: 50rem; */
+   /* margin-left: 4rem;    margin-top: 2rem; */
+   overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+}
+.carousel-item{
+    position: sticky;
+    border: 2px solid black;
+     height: 45rem;
+    min-width: 95%;
+    transition: opacity 1s ease;
+    margin-top: 4rem;
+    margin-left: 3rem;
+
+}
