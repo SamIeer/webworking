@@ -1,3 +1,10 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default body margin */
+}
 
 #container{
    display: flex;
@@ -40,7 +47,7 @@ text-align: center;
 #right{
     display: flex;
     flex-direction: column;
-    width: 45rem;
+    width: 35rem;
     margin-left: 3rem;
 }
     /* margin-left: 1rem; */
@@ -74,9 +81,8 @@ text-align: center;
     position: sticky;
     border: 2px solid black;
     height: 20rem;
-    min-width: 70%;
+    min-width: 80%;
     transition: opacity 1s ease;
     margin-top: 1.5rem;
-    margin-left: 3rem;
-
+    margin-left: 4rem;
 }
