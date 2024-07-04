@@ -12,14 +12,18 @@ mid.addEventListener('click', () => {
             transform: translateX(-88px);
             opacity: 100%;
             font-size:24px;
+            transition-delay: 100ms;
             display: block;
         }
         #lmid ul li:nth-child(even) {
             transform: translateX(39px);
             opacity: 100%;
             font-size:24px;
+            transition-delay: 100ms;
             display: block;
         }
     `;
     document.head.appendChild(style);
 })
+
+
