@@ -5,25 +5,69 @@ const mid2 = document.getElementById('lmid').lastElementChild;
 console.log(mid2);
 
 mid.addEventListener('click', () => {
-   const chilren = mid2.children;
    const style = document.createElement('style');
     style.textContent = `
         #lmid ul li:nth-child(odd) {
-            transform: translateX(-88px);
-            opacity: 100%;
-            font-size:24px;
+            transform: translateX(-70px);
             transition-delay: 100ms;
-            display: block;
+
         }
         #lmid ul li:nth-child(even) {
-            transform: translateX(39px);
-            opacity: 100%;
-            font-size:24px;
+            transform: translateX(30px);
             transition-delay: 100ms;
+        }
+        #left  li img{
             display: block;
         }
-    `;
+`;
     document.head.appendChild(style);
 })
 
+//working on right container
+const nav = document.getElementById('navbar');
+const optn = nav.children;
+const rhead = document.getElementById('rhead');
+const rmid = document.getElementById('box');
 
+console.log(optn);
+
+for (let i = 0; i < optn.length; i++) {
+    optn[i].addEventListener('click', () => {
+        // Reset styles for all options
+        for (let j = 0; j < optn.length; j++) {
+            optn[j].style.transform = '';
+            optn[j].style.marginLeft = '';
+            if (optn[j].firstElementChild) {
+                optn[j].firstElementChild.style.fontSize = '';
+            }
+            if (optn[j].lastElementChild) {
+                optn[j].lastElementChild.style.fontSize = '';
+            }
+        }
+
+        if (i == 0) {
+            optn[i].style.transform = 'rotateY(360deg)';
+            optn[i].style.marginLeft = '130px';
+            if (optn[i].firstElementChild) {
+                optn[i].firstElementChild.style.fontSize = '35px';
+            }
+            if (optn[i + 1] && optn[i + 1].lastElementChild) {
+                optn[i + 1].lastElementChild.style.fontSize = '15px';
+                optn[i+1].style.marginRight = '20px';
+            }
+            rhead.style.background = 'radial-gradient(circle, rgb(241 157 84), rgb(255, 255, 255) 100%)';
+            rmid.style.background = 'radial-gradient(circle, rgb(241 157 84), rgb(255, 255, 255) 100%)';
+        } else {
+            optn[i].style.transform = 'rotateY(360deg)';
+            optn[i].style.marginRight = '120px';
+            if (optn[i].firstElementChild) {
+                optn[i].firstElementChild.style.fontSize = '35px';
+            }
+            if (optn[i - 1] && optn[i - 1].lastElementChild) {
+                optn[i - 1].lastElementChild.style.fontSize = '15px';
+            }
+            rhead.style.background = 'radial-gradient(circle, rgb(255 157 56), rgb(255 255 255) 100%)';
+            rmid.style.background = 'radial-gradient(circle, rgb(255 157 56), rgb(255 255 255) 100%)';
+        }
+    });
+}
