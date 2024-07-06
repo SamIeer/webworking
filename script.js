@@ -71,3 +71,18 @@ for (let i = 0; i < optn.length; i++) {
         }
     });
 }
+
+fetch("https://type.fit/api/quotes")
+.then(function(response) {
+    return response.json();
+})
+.then(function(data) {
+    const randomIndex = Math.floor(Math.random() * data.length);
+    const quote = data[randomIndex];
+    const author = quote.author ? quote.author : "Unknown";
+    document.getElementById('quote').innerText = `"${quote.text}" - ${author}`;
+})
+.catch(function(error) {
+    console.error('Error fetching quote:', error);
+    document.getElementById('quote').innerText = 'Failed to load quote.';
+});
