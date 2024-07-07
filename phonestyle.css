@@ -1,0 +1,69 @@
+/* Tablets and below */
+@media (max-width: 1024px) {
+    body {
+        flex-direction: row;
+        height: auto;
+        padding: 20px;
+    }
+
+    #container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #right {
+        width: 90%;
+        margin: 1rem 0;
+    }
+
+    #left {
+        width: 90%;
+        margin: 1rem 0;}
+
+    span img {
+        height: 12rem;
+        width: 12rem;
+        margin-top: 20px;}
+
+    .lhead {
+        width: 90%;}
+    #lmid{
+        width: 40%;
+    }
+
+    .lfoot {
+        width: 90%;
+    }
+}
+
+/* Phones and below */
+@media (max-width: 768px) {
+    #navbar a {
+        font-size: 20px;
+    }
+
+    .quote {
+        font-size: 25px;
+    }
+
+    #still {
+        width: 100%;
+        margin-left: 0;
+        overflow-x: scroll;
+    }
+
+    .carousel-item {
+        min-width: 100%;
+    }
+
+    #skills {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    span img {
+        height: 10rem;
+        width: 10rem;
+    }
+    }
