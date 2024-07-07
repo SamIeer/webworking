@@ -46,7 +46,7 @@ for (let i = 0; i < optn.length; i++) {
         }
 
         if (i == 0) {
-            optn[i].style.transform = 'rotateY(360deg)';
+            optn[i].style.transform = 'rotateY(45deg)';
             optn[i].style.marginLeft = '130px';
             if (optn[i].firstElementChild) {
                 optn[i].firstElementChild.style.fontSize = '35px';
@@ -55,10 +55,10 @@ for (let i = 0; i < optn.length; i++) {
                 optn[i + 1].lastElementChild.style.fontSize = '15px';
                 optn[i+1].style.marginRight = '20px';
             }
-            rhead.style.background = 'radial-gradient(circle, rgb(241 157 84), rgb(255, 255, 255) 100%)';
-            rmid.style.background = 'radial-gradient(circle, rgb(241 157 84), rgb(255, 255, 255) 100%)';
+            rhead.style.background = 'radial-gradient(circle, rgb(251 216 74), rgb(255, 255, 255) 100%)';
+            rmid.style.background = 'radial-gradient(circle, rgb(251 216 74), rgb(255, 255, 255) 100%)';
         } else {
-            optn[i].style.transform = 'rotateY(360deg)';
+            optn[i].style.transform = 'rotateY(45deg)';
             optn[i].style.marginRight = '120px';
             if (optn[i].firstElementChild) {
                 optn[i].firstElementChild.style.fontSize = '35px';

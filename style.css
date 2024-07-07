@@ -1,5 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Playwrite+US+Modern:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(
+        45deg,
+        orange 25%,
+        transparent 25%,
+        transparent 75%,
+        orange 75%,
+        orange
+      ),
+      linear-gradient(
+        45deg,
+        orange 25%,
+        transparent 25%,
+        transparent 75%,
+        orange 75%,
+        orange
+      );
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;} */
+
 body {
     display: flex;
     justify-content: center;
@@ -25,18 +50,27 @@ body {
 }
 
 #container{
-   display: flex;}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;}
 
-span img{
+
+#middle{                                                                  /*  CHANGED*/
     border: 2px solid burlywood;
     height: 16rem;
     width: 16rem;
-    margin-top: 80px;
-    margin-left: 8px;
+    margin-top: 0px;
+    margin-left: 20px;
+    border-radius: 50%;
+} 
+span img{                                                                 /*  CHANGED*/
+    height: inherit;
+    width: inherit;
+    border: 2px solid burlywood;
     border-radius: 50%;
     filter: grayscale(100%);
-}
-    
+}    
     span img:hover{
     transform: rotateY(360deg);
     transition: 2s; filter: grayscale(0%);}
@@ -44,7 +78,7 @@ span img{
 
 /* LEFT SIDE */
 #left{
-    height:35rem;
+    height:33rem;
     display: flex;
     flex-direction: column;
     width: 12rem;}
@@ -68,7 +102,7 @@ span img{
 #lmid{ flex-basis: 15rem; }
        #lmid ul{
             list-style-type: none;
-            height: 12rem; display: flex;
+            height: 12rem;     width: 144px; display: flex;                       /* CHANGED */
             flex-direction: column;
             flex-wrap: wrap;
             align-content: space-evenly;
@@ -100,11 +134,11 @@ span img{
             transition-duration: 1s;
             transition-timing-function: ease-in-out;
         }
-        #left > div > button {
+        #left  button {
             margin-top: 1rem;
             width: 100px;
             height: 30px;
-            background: #9cf970bd;
+            background: #447286;
             color: #fff;
             border-radius: 50px;
             cursor: pointer;
@@ -112,31 +146,30 @@ span img{
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
             overflow: hidden;}
 
-          #left > div > button span {
+          #left  button span {
             font-size: 10px;
             letter-spacing: 1px;
             transition: top 0.5s;
             font-style: oblique;}
 
-          .btn-text-one {
+          .btn-text-one {                                                      /*  CHANGED*/
             position: absolute;
             min-width: 100%;
-            top: 50%;
             left: 0;
             transform: translateY(-50%); }
 
-          .btn-text-two {
+          .btn-text-two {                                                      /*  CHANGED*/
             position: absolute;
             width: 59%;
-            top: 330%;
+            top: 150%;
             left: 21%;
             transform: translateY(-50%);}
 
-          #left > div > button:hover .btn-text-one{
+          #left button:hover .btn-text-one{
             top: -100%;}
 
-          #left > div > button:hover .btn-text-two {
-            top: 50%;}
+          #left button:hover .btn-text-two {
+            top: 50%; }
 
 
 .lfoot{flex-basis: 12rem; width:30rem;
@@ -154,8 +187,8 @@ h2{font-family: "Kalam", cursive;
 #right{
     display: flex;
     flex-direction: column;
-    width: 35rem;
-    margin-left: 3rem;
+    width: 32rem;
+    margin-left: 19rem;
 }
     /* margin-left: 1rem; */
 #right > div{
@@ -176,16 +209,15 @@ h2{font-family: "Kalam", cursive;
     span{
         transition: margin-right 1s,margin-left 1s, transform 2s;
     }
-    a{font-family: "Kalam", cursive;
-    font-weight: 700;
-    font-style: normal;
+    a{font-family: "Kode Mono", monospace;
+        font-weight: bolder;
     text-decoration: none;
-    color: blueviolet;
+    color: rgba(22, 21, 21, 1);
     font-size: 25px;
     /* transition: text-decoration 0.5s,margin-left 1s, font-size 0.5s; */}
 }
 #navbar span :hover {
-    color: rgb(131, 131, 84);
+    color: rgb(163, 163, 158);
     text-decoration: underline;}
 
 
@@ -238,9 +270,8 @@ h2{font-family: "Kalam", cursive;
         display: block;
         justify-content: flex-start;
         font-size: 35px;
-        backdrop-filter: blur(30px);
-        box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
-        border: 2px solid rgba(255, 255, 255, 0.18);}
+        color: rgb(114 120 119 / 50%);
+        text-align: center;}
 
 .rfoot{flex-basis: 4rem;
           border-top-left-radius: 6rem;
