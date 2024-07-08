@@ -10,9 +10,11 @@
         flex-direction: column;}
 
     #right {
-        width: 90%;
-        margin: 31rem 0;
-        height: 40%;}
+        width: 100%;
+        margin: 25rem 0;}
+        #rhead {flex-basis: 8rem;}
+        #box {flex-basis: 30rem;}
+        .rfoot { flex-basis: 6rem;}
 
     #left {
         width: 100%;
