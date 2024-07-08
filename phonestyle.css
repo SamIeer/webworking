@@ -14,6 +14,14 @@
             #navbar a {font-size: 40px;}
 
         #box { flex-basis: 40rem;}
+             #still{
+                width: 40rem;
+                margin: 2rem;
+                height: 36rem;
+                margin-left: 6rem;}
+        .carousel-item{ min-width: 40rem;}
+                .quote {margin: 5rem; font-size: 60px;}
+                #skills > div { height: 100px; width: 100px;}
         .rfoot { flex-basis: 4rem;}
 
     #left {  width: 95%; margin: 6rem 0;} 
@@ -58,9 +66,7 @@
 @media (max-width: 768px) {
     
 
-    .quote {
-        font-size: 25px;
-    }
+    
 
     #still {
         width: 100%;
