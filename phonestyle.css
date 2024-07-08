@@ -9,7 +9,7 @@
     #container {
         flex-direction: column;}
 
-    #right {  width: 92%;  margin: 21rem 0; margin-left: 2rem;  height: 25rem;}
+    #right {  width: 92%;  margin: 26rem 0; margin-left: 2rem;  height: 25rem;}
         #rhead {flex-basis: 8rem;}
             #navbar a {font-size: 40px;}
 
