@@ -19,17 +19,29 @@
     #left {
         width: 90%;
         margin: 1rem 0;}
-
+    
+        #middle{
+            border: 2px solid burlywood;
+            height: 16rem;
+            width: 16rem;
+            margin-top: 0px;
+            margin-left: 200px;
+            border-radius: 50%;}
+            
     span img {
-        height: 12rem;
-        width: 12rem;
-        margin-top: 20px;}
+        height: inherit;
+        width: inherit;}
 
     .lhead {
         width: 90%;}
-    #lmid{
-        width: 40%;
+
+    #profile{
+        display: flex;
+        width: 20em;
     }
+
+    #lmid{
+        width: 58%;}
 
     .lfoot {
         width: 90%;

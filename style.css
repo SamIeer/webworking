@@ -96,9 +96,11 @@ span img{                                                                 /*  CH
           font-family: "Playwrite US Modern", cursive;
           animation: fade .3s forwards;}
 .lhead >div{
-    animation: holder 4s;
-}
+    animation: holder 4s;}
 
+#profile{
+   display: flex;}
+   
 #lmid{ flex-basis: 15rem; }
        #lmid ul{
             list-style-type: none;
@@ -172,12 +174,9 @@ span img{                                                                 /*  CH
             top: 50%; }
 
 
-.lfoot{flex-basis: 12rem; width:30rem;
-                      border-top-right-radius: 6rem;
-                      border-bottom-right-radius: 6rem;
-                      border-bottom-left-radius: 8rem;
-                      display: flex;
-                      flex-direction: column;}
+.lfoot{flex-basis: 12rem; width:30rem; border-top-right-radius: 6rem;
+    border-bottom-right-radius: 6rem; border-bottom-left-radius: 8rem;
+    display: flex; flex-direction: column;}
 
 h2{font-family: "Kalam", cursive;
     font-weight: 700;
