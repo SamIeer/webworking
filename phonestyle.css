@@ -9,16 +9,14 @@
     #container {
         flex-direction: column;}
 
-    #right {
-        width: 100%;
-        margin: 20rem 0;}
+    #right {  width: 92%;  margin: 21rem 0; margin-left: 2rem;}
         #rhead {flex-basis: 8rem;}
             #navbar a {font-size: 40px;}
 
         #box { flex-basis: 40rem;}
         .rfoot { flex-basis: 4rem;}
 
-    #left {width: 100%; margin: 5rem;} 
+    #left {  width: 95%; margin: 6rem 0;} 
     #left li img { width: 65px; height: 65px;
             display: none; transition: all 0.5s;}
             #left button span {
@@ -53,7 +51,7 @@
     .lfoot   h2{font-size: 35px;}  
     
 
-    #resbtn{height: 45px; width: 230px; margin-left: 670px;}
+    #resbtn{height: 45px; width: 230px; margin-left: 600px;}
 }
 
 /* Phones and below */
