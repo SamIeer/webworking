@@ -9,11 +9,11 @@
     #container {
         flex-direction: column;}
 
-    #right {  width: 92%;  margin: 21rem 0; margin-left: 2rem;}
+    #right {  width: 92%;  margin: 21rem 0; margin-left: 2rem;  height: 25rem;}
         #rhead {flex-basis: 8rem;}
             #navbar a {font-size: 40px;}
 
-        #box { flex-basis: 40rem;}
+        #box { flex-basis: 22rem;}
              #still{
                 width: 40rem;
                 margin: 2rem;
@@ -24,7 +24,7 @@
                 #skills > div { height: 100px; width: 100px;}
         .rfoot { flex-basis: 4rem;}
 
-    #left {  width: 95%; margin: 6rem 0;} 
+    #left {  width: 95%;  margin-bottom: 3rem;} 
     #left li img { width: 65px; height: 65px;
             display: none; transition: all 0.5s;}
             #left button span {

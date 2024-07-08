@@ -193,7 +193,7 @@ h2{font-family: "Kalam", cursive;
 
 /* RIGHT SIDE */
 #right{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     width: 32rem;
     margin-left: 19rem;
