@@ -11,10 +11,12 @@
 
     #right {
         width: 100%;
-        margin: 25rem 0;}
+        margin: 26rem 0;}
         #rhead {flex-basis: 8rem;}
-        #box {flex-basis: 30rem;}
-        .rfoot { flex-basis: 6rem;}
+            #navbar a {font-size: 40px;}
+
+        #box {flex-basis: 35rem;}
+        .rfoot { flex-basis: 10rem;}
 
     #left {
         width: 100%;
@@ -61,9 +63,7 @@
 
 /* Phones and below */
 @media (max-width: 768px) {
-    #navbar a {
-        font-size: 20px;
-    }
+    
 
     .quote {
         font-size: 25px;
