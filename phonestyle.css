@@ -11,20 +11,18 @@
 
     #right {
         width: 100%;
-        margin: 26rem 0;}
+        margin: 20rem 0;}
         #rhead {flex-basis: 8rem;}
             #navbar a {font-size: 40px;}
 
-        #box {flex-basis: 35rem;}
-        .rfoot { flex-basis: 10rem;}
+        #box { flex-basis: 40rem;}
+        .rfoot { flex-basis: 4rem;}
 
-    #left {
-        width: 100%;
-        margin: 3rem;} #left li img {
-            width: 65px;
-            height: 65px;
-            display: none;
-            transition: all 0.5s;}
+    #left {width: 100%; margin: 5rem;} 
+    #left li img { width: 65px; height: 65px;
+            display: none; transition: all 0.5s;}
+            #left button span {
+                font-size: 20px;}
     
         #middle{
             border: 2px solid burlywood;
@@ -55,10 +53,7 @@
     .lfoot   h2{font-size: 35px;}  
     
 
-    #resbtn{
-    height: 30px;
-    width: 160px;
-    margin-left: 520px;}
+    #resbtn{height: 45px; width: 230px; margin-left: 670px;}
 }
 
 /* Phones and below */
