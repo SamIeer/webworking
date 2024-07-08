@@ -100,7 +100,7 @@ span img{                                                                 /*  CH
 
 #profile{
    display: flex;}
-   
+
 #lmid{ flex-basis: 15rem; }
        #lmid ul{
             list-style-type: none;
@@ -120,8 +120,7 @@ span img{                                                                 /*  CH
                 display: none;  transition: all 0.5s;}
 
         #left li img:hover{
-            transform: rotateY(30deg);
-        }
+            transform: rotateY(30deg);}
 
 
         #lmid ul li:nth-child(odd) {
@@ -134,9 +133,9 @@ span img{                                                                 /*  CH
             transform: translateX(-94px);
             transition-property: transform, opacity;
             transition-duration: 1s;
-            transition-timing-function: ease-in-out;
-        }
-        #left  button {
+            transition-timing-function: ease-in-out;}
+
+        #prbtn {
             margin-top: 1rem;
             width: 100px;
             height: 30px;
@@ -148,35 +147,47 @@ span img{                                                                 /*  CH
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
             overflow: hidden;}
 
-          #left  button span {
+        #left  button span {
             font-size: 10px;
             letter-spacing: 1px;
             transition: top 0.5s;
             font-style: oblique;}
 
-          .btn-text-one {                                                      /*  CHANGED*/
+        .btn-text-one {                                                      /*  CHANGED*/
             position: absolute;
             min-width: 100%;
             left: 0;
             transform: translateY(-50%); }
 
-          .btn-text-two {                                                      /*  CHANGED*/
+        .btn-text-two {                                                      /*  CHANGED*/
             position: absolute;
             width: 59%;
             top: 150%;
             left: 21%;
             transform: translateY(-50%);}
 
-          #left button:hover .btn-text-one{
+        #left button:hover .btn-text-one{
             top: -100%;}
 
-          #left button:hover .btn-text-two {
+        #left button:hover .btn-text-two {
             top: 50%; }
 
 
 .lfoot{flex-basis: 12rem; width:30rem; border-top-right-radius: 6rem;
     border-bottom-right-radius: 6rem; border-bottom-left-radius: 8rem;
-    display: flex; flex-direction: column;}
+    display: flex; flex-direction: column;    .para{ font-size: 15px;} 
+}
+#resbtn{
+margin-top: 1rem;
+width: 125px;
+height: 20px;
+margin-left: 300px;
+background: #ffd34d;
+border-radius: 50px;
+cursor: pointer;
+position: relative;
+box-shadow: 0 15px 30px rgba(228, 156, 61, 0.5);
+overflow: hidden;}
 
 h2{font-family: "Kalam", cursive;
     font-weight: 700;
@@ -273,6 +284,4 @@ h2{font-family: "Kalam", cursive;
         text-align: center;}
 
 .rfoot{flex-basis: 4rem;
-          border-top-left-radius: 6rem;
-          border-bottom-left-radius: 6rem;
-          border-bottom-right-radius: 6rem;}
+        border-top-left-radius: 6rem; border-bottom-left-radius: 6rem;  border-bottom-right-radius: 6rem;}

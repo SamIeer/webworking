@@ -7,45 +7,58 @@
     }
 
     #container {
-        flex-direction: column;
-        align-items: center;
-    }
+        flex-direction: column;}
 
     #right {
         width: 90%;
-        margin: 1rem 0;
-    }
+        margin: 31rem 0;
+        height: 40%;}
 
     #left {
-        width: 90%;
-        margin: 1rem 0;}
+        width: 100%;
+        margin: 3rem;} #left li img {
+            width: 60px;
+            height: 60px;
+            display: none;
+            transition: all 0.5s;}
     
         #middle{
             border: 2px solid burlywood;
-            height: 16rem;
-            width: 16rem;
+            height: 30rem;
+            width: 30rem;
             margin-top: 0px;
             margin-left: 200px;
             border-radius: 50%;}
-            
+
     span img {
         height: inherit;
         width: inherit;}
 
     .lhead {
-        width: 90%;}
+        width: 90%;     font-size: 48px;}
 
     #profile{
         display: flex;
-        width: 20em;
-    }
+        width: 20em;}
 
     #lmid{
         width: 58%;}
+    #prbtn{     width: 120px;
+        height: 50px; margin-left: 7rem;}
+
+    #lmid ul{
+        height: 25rem;
+        width: 250px;}
 
     .lfoot {
-        width: 90%;
-    }
+        width: 90%; .para{ font-size: 35px;}} 
+    .lfoot   h2{font-size: 40px;}  
+    
+
+    #resbtn{
+    height: 30px;
+    width: 160px;
+    margin-left: 520px;}
 }
 
 /* Phones and below */
