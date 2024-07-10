@@ -62,17 +62,8 @@
     #resbtn{height: 45px; width: 230px; margin-left: 600px;}
 }
 
-/* Phones and below */
+/* Phones and below
 @media (max-width: 768px) {
-    
-
-    
-
-    #still {
-        width: 100%;
-        margin-left: 0;
-        overflow-x: scroll;
-    }
 
     .carousel-item {
         min-width: 100%;
@@ -88,4 +79,4 @@
         height: 10rem;
         width: 10rem;
     }
-    }
+    } */

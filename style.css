@@ -33,8 +33,7 @@ body {
     margin: 0;
     background: linear-gradient(150deg, #f9afaf, #f5d393, #ffffb8, #99f599, #909d9d, #dcdce3, #cfbadf, #ff90cc);
     background-size: 300% 300%;
-    animation: moveGradient 10s linear infinite;
-}
+    animation: moveGradient 10s linear infinite;}
 
 
 @keyframes moveGradient {
@@ -57,19 +56,17 @@ body {
 
 #middle{                                                                  /*  CHANGED*/
     border: 2px solid burlywood;
-    height: 16rem;
-    width: 16rem;
-    margin-top: 0px;
+    height: 15rem;
+    width: 15rem;
+    margin-top: 10px;
     margin-left: 20px;
-    border-radius: 50%;
-} 
+    border-radius: 50%;} 
 span img{                                                                 /*  CHANGED*/
     height: inherit;
     width: inherit;
     border: 2px solid burlywood;
     border-radius: 50%;
-    filter: grayscale(100%);
-}    
+    filter: grayscale(100%);}    
     span img:hover{
     transform: rotateY(360deg);
     transition: 2s; filter: grayscale(0%);}
@@ -87,18 +84,17 @@ span img{                                                                 /*  CH
     text-align: center;}
 
 .lhead{ flex-basis: 4rem;
-          width: 30rem;
-          border-top-right-radius: 6rem;
-          border-bottom-right-radius: 6rem;
-          border-top-left-radius: 6rem;
-          font-size: 20px;
-          font-family: "Playwrite US Modern", cursive;
-          animation: fade .3s forwards;}
+        width: 30rem;
+        border-top-right-radius: 6rem;
+        border-bottom-right-radius: 6rem;
+        border-top-left-radius: 6rem;
+        font-size: 20px;
+        font-family: "Playwrite US Modern", cursive;
+        animation: fade .3s forwards;}
 .lhead >div{
     animation: holder 4s;}
 
-#profile{
-   display: flex;}
+#profile{ display: flex;}
 
 #lmid{ flex-basis: 15rem; }
        #lmid ul{
@@ -160,7 +156,7 @@ span img{                                                                 /*  CH
         .btn-text-two {                                                      /*  CHANGED*/
             position: absolute;
             width: 59%;
-            top: 150%;
+            top: 200%;
             left: 21%;
             transform: translateY(-50%);}
 
@@ -173,18 +169,18 @@ span img{                                                                 /*  CH
 
 .lfoot{flex-basis: 12rem; width:30rem; border-top-right-radius: 6rem;
     border-bottom-right-radius: 6rem; border-bottom-left-radius: 8rem;
-    display: flex; flex-direction: column;    .para{ font-size: 15px;} 
-}
+    display: flex; flex-direction: column;    .para{ font-size: 15px;} }
+
 #resbtn{
 margin-top: 1rem;
 width: 125px;
 height: 20px;
-margin-left: 300px;
+margin-left: 280px;
 background: #ffd34d;
 border-radius: 50px;
 cursor: pointer;
 position: relative;
-box-shadow: 0 15px 30px rgba(228, 156, 61, 0.5);
+box-shadow: 0 15px 30px rgba(46, 44, 41, 0.5);
 overflow: hidden;}
 
 h2{font-family: "Kalam", cursive;
@@ -239,8 +235,7 @@ h2{font-family: "Kalam", cursive;
     width: 27rem;
     margin: 2rem;
     height: 18rem;
-    /* border: 2px solid black; */
-    margin-left: 3rem;
+    margin-left: 2rem;
     overflow: auto;
     scrollbar-width: none;
     display: flex;}
@@ -283,3 +278,4 @@ h2{font-family: "Kalam", cursive;
 
 .rfoot{flex-basis: 4rem;
         border-top-left-radius: 6rem; border-bottom-left-radius: 6rem;  border-bottom-right-radius: 6rem;}
+

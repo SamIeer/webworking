@@ -9,9 +9,8 @@ mid.addEventListener('click', () => {
     style.textContent = `
         #lmid ul li:nth-child(odd) {
             transform: translateX(-70px);
-            transition-delay: 100ms;
-
-        }
+            transition-delay: 100ms;}
+            
         #lmid ul li:nth-child(even) {
             transform: translateX(30px);
             transition-delay: 100ms;
