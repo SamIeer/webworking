@@ -168,8 +168,8 @@ span img{                                                                 /*  CH
 
 
 .lfoot{flex-basis: 12rem; width:30rem; border-top-right-radius: 6rem;
-    border-bottom-right-radius: 6rem; border-bottom-left-radius: 8rem;
-    display: flex; flex-direction: column;    .para{ font-size: 15px;} }
+    border-bottom-right-radius: 6rem; border-bottom-left-radius: 5rem;
+    display: flex; flex-direction: column;    .para{ font-size: 14px;} }
 
 #resbtn{
 margin-top: 1rem;
@@ -183,7 +183,8 @@ position: relative;
 box-shadow: 0 15px 30px rgba(46, 44, 41, 0.5);
 overflow: hidden;}
 
-h2{font-family: "Kalam", cursive;
+h2{font-size: 20px;
+    font-family: "Kalam", cursive;
     font-weight: 700;
     font-style: normal;}
 
@@ -282,3 +283,10 @@ h2{font-family: "Kalam", cursive;
 .rfoot{flex-basis: 4rem;
         border-top-left-radius: 6rem; border-bottom-left-radius: 6rem;  border-bottom-right-radius: 6rem;}
 
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
