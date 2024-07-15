@@ -28,11 +28,10 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
     margin: 0;
     background: linear-gradient(150deg, #f9afaf, #f5d393, #ffffb8, #99f599, #909d9d, #dcdce3, #cfbadf, #ff90cc);
-    background-size: 300% 300%;
+    background-size: 200% 200%;
     animation: moveGradient 10s linear infinite;}
 
 
@@ -51,7 +50,8 @@ body {
 #container{
     display: flex;
     justify-content: center;
-    align-items: center;}
+    margin:50px;
+}
 
 
 #middle{                                                                  /*  CHANGED*/
