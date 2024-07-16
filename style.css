@@ -58,7 +58,7 @@ body {
     border: 2px solid burlywood;
     height: 15rem;
     width: 15rem;
-    margin-top: 10px;
+    margin-top: 12px;
     margin-left: 20px;
     border-radius: 50%;} 
 span img{                                                                 /*  CHANGED*/
@@ -253,7 +253,22 @@ h2{font-size: 20px;
         width: 60px;}
         
 #projects{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-gap: 0px;
+    padding: 6px;
+}
+#projects > div{
+    border: 2px solid black;
+    width: 10rem; height: 7rem;
+    margin: 0.5rem; border-radius: 10%;
+    transition: all ease 0.6s;
+}
+
+#projects > div:hover{
+    background-color: #f5d393;
+    box-shadow: 10px 10px; 
+    transform: rotate3d(-1, 1, 0, 20deg);
 }
 
 #still{
