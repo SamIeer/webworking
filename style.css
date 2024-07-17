@@ -203,7 +203,7 @@ h2{font-size: 20px;
 #rhead{flex-basis: 0rem;
           border-top-left-radius: 6rem;
           border-bottom-left-radius: 6rem;
-          border-top-right-radius: 6rem;}
+          border-top-right-radius: 10rem;}
 
     #navbar{
         display: flex;
@@ -228,8 +228,8 @@ h2{font-size: 20px;
 
 /* corousel desgin */
 #box{flex-basis: 24rem;
-    border-top-left-radius: 3rem;
-    border-bottom-left-radius: 3rem;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
     position: relative;}
     
 .carousel-item{    
@@ -296,7 +296,7 @@ h2{font-size: 20px;
         text-align: center;}
 
 .rfoot{flex-basis: 4rem;
-        border-top-left-radius: 6rem; border-bottom-left-radius: 6rem;  border-bottom-right-radius: 6rem;}
+        border-top-left-radius: 6rem; border-bottom-left-radius: 6rem;  border-bottom-right-radius: 10rem;}
 
 footer {
     background-color: #f4f4f4;

@@ -12,7 +12,7 @@
         #rhead {flex-basis: 8rem;}
             #navbar a {font-size: 40px;}
 
-        #box { flex-basis: 22rem;}
+        #box { flex-basis: 22rem; border-bottom-right-radius: 5rem;}
              #still{
                 width: 40rem;
                 margin: 2rem;
