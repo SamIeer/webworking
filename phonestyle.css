@@ -6,8 +6,7 @@
         padding: 20px;
     }
 
-    #container {
-        flex-direction: column;}
+    #container {  flex-direction: column; margin: 5px; }
 
     #right { width: 102%;  margin: 26rem 0;  height: 20rem;}
         #rhead {flex-basis: 8rem;}
@@ -24,7 +23,7 @@
                 #skills > div { height: 100px; width: 100px;}
         .rfoot { flex-basis: 4rem;}
 
-    #left {  width: 95%;  margin-bottom: 3rem;} 
+    #left {  width: 95%;  margin-bottom: 5rem;} 
     #left li img { width: 65px; height: 65px;
             display: none; transition: all 0.5s;}
             #left button span {
