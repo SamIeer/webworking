@@ -9,7 +9,7 @@
     #container {
         flex-direction: column;}
 
-    #right {  width: 92%;  margin: 26rem 0; margin-left: 2rem;  height: 25rem;}
+    #right { width: 102%;  margin: 26rem 0;  height: 20rem;}
         #rhead {flex-basis: 8rem;}
             #navbar a {font-size: 40px;}
 
@@ -28,7 +28,7 @@
     #left li img { width: 65px; height: 65px;
             display: none; transition: all 0.5s;}
             #left button span {
-                font-size: 20px;}
+                font-size: 16px;}
     
         #middle{
             border: 2px solid burlywood;
@@ -42,8 +42,7 @@
         height: inherit;
         width: inherit;}
 
-    .lhead {
-        width: 100%;     font-size: 35px;}
+    .lhead { width: 110%; font-size: 38px;}
 
     #profile{
         display: flex;
@@ -55,17 +54,29 @@
     #lmid ul{height: 20rem; width: 320px;}
 
     .lfoot {
-        width: 100%; .para{ font-size: 30px;}} 
-    .lfoot   h2{font-size: 35px;}  
+        width: 110%; .para{ font-size: 28px;}} 
+    .lfoot   h2{font-size: 34px;}  
     
 
-    #resbtn{height: 45px; width: 230px; margin-left: 600px;}
+    #resbtn{  height: 40px;  width: 200px; margin-left: 600px;}
 }
 
-/* Phones and below
-@media (max-width: 768px) {
+/* #projects > div {
+    border: 2px solid black;
+    width: 15rem;
+    height: 10rem;
+    margin: 1.5rem;
+    border-radius: 10%;
+    transition: all ease 0.6s;
+    background-color: #f5d393;
+    box-shadow: 10px 10px; 
+    transform: rotate3d(-1, 1, 0, 20deg);
+} */
 
-    .carousel-item {
+/* Phones and below */
+@media (max-width: 768px) { 
+
+    /* .carousel-item {
         min-width: 100%;
     }
 
@@ -78,5 +89,5 @@
     span img {
         height: 10rem;
         width: 10rem;
-    }
     } */
+} 
